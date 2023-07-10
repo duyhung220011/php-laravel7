@@ -70,7 +70,7 @@
                       </div>
                       <div class="form-group">
                           <label for="role" class="col-form-label">Role</label>
-                          <select name="role" class="form-control">
+                          <select name="role" class="form-control" disabled>
                               <option value="">-----Select Role-----</option>
                                   <option value="admin" {{(($profile->role=='admin')? 'selected' : '')}}>Admin</option>
                                   <option value="user" {{(($profile->role=='user')? 'selected' : '')}}>User</option>

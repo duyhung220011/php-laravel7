@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0fe02967618b6ee54572c79b43d09b09",
+    "content-hash": "59c456f6ba5b63f02205e6cdfba2bddb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5217,16 +5217,16 @@
         },
         {
             "name": "unisharp/laravel-filemanager",
-            "version": "v2.4.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/UniSharp/laravel-filemanager.git",
-                "reference": "319d57e135f0665295a5f9b117d9393a0b96b781"
+                "reference": "9e9022747832fb862a15bdafd4e6fdd564f10c82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UniSharp/laravel-filemanager/zipball/319d57e135f0665295a5f9b117d9393a0b96b781",
-                "reference": "319d57e135f0665295a5f9b117d9393a0b96b781",
+                "url": "https://api.github.com/repos/UniSharp/laravel-filemanager/zipball/9e9022747832fb862a15bdafd4e6fdd564f10c82",
+                "reference": "9e9022747832fb862a15bdafd4e6fdd564f10c82",
                 "shasum": ""
             },
             "require": {
@@ -5288,7 +5288,11 @@
                 "tinymce",
                 "upload"
             ],
-            "time": "2022-02-20T17:52:48+00:00"
+            "support": {
+                "issues": "https://github.com/UniSharp/laravel-filemanager/issues",
+                "source": "https://github.com/UniSharp/laravel-filemanager/tree/v2.5.1"
+            },
+            "time": "2022-05-15T11:14:27+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -7531,5 +7535,5 @@
         "php": "^7.2.5"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.3.0"
 }
